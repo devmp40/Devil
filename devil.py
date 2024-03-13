@@ -1,4 +1,5 @@
 import platform
+bit = platform.architecture()[0]
 if "32bit" in bit:
   try:
     import devil32
